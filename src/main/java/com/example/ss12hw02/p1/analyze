@@ -1,0 +1,4 @@
+Trong Spring Boot, ta không cần ghi rõ số phiên bản khi thêm các thư viện thuộc hệ sinh thái Spring vào vì
+Spring Boot sử dụng Spring Boot Starter Parent để quản lý tập trung phiên bản, các dependency đã được
+định nghĩa sẵn phiên bản tương thích trong BOM -> Ta chỉ cần khai báo tên thư viện, hệ thống sẽ
+tự động chọn phiên bản phù hợp, tránh xung đột
